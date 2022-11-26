@@ -1,0 +1,193 @@
+a:hover {
+  text-decoration: none
+}
+
+*,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+object,
+fieldset,
+abbr,
+textarea {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+small,
+ol,
+ul,
+li {
+  border: none
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+
+  &::placeholder {
+    color: inherit;
+  }
+}
+
+
+html {
+  font-size: 11px;
+
+  @include respond(xxxl) {
+    font-size: 10px;
+  }
+
+  @include respond(xxl) {
+    font-size: 8px;
+  }
+
+  @include respond(xl) {
+    font-size: 7.5px;
+  }
+
+  @include respond(xlg) {
+    font-size: 6.6px;
+  }
+
+  @include respond(lg) {
+    font-size: 6.08px;
+  }
+
+  @include respond(sm) {
+    font-size: 10px;
+  }
+
+  @include respond(xss) {
+    font-size: 8px;
+  }
+}
+
+.container {
+  max-width: 183rem;
+  width: 100%;
+  height: 100%;
+  padding: 0 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+
+  &.--page {
+    max-width: 152.6rem;
+    padding-left: 10%;
+  }
+
+  &.--wide {
+    max-width: 152.6rem;
+  }
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+main {
+  flex: 1;
+}

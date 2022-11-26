@@ -1,0 +1,258 @@
+a:hover {
+  text-decoration: none;
+}
+
+*,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+object,
+fieldset,
+abbr,
+textarea {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+small,
+ol,
+ul,
+li {
+  border: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+input::-webkit-input-placeholder {
+  color: inherit;
+}
+
+input:-ms-input-placeholder {
+  color: inherit;
+}
+
+input::-ms-input-placeholder {
+  color: inherit;
+}
+
+input::placeholder {
+  color: inherit;
+}
+
+html {
+  font-size: 11px;
+}
+
+@media screen and (max-width: 1949.9px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1799.9px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 1499.9px) {
+  html {
+    font-size: 7.5px;
+  }
+}
+
+@media screen and (max-width: 1199.9px) {
+  html {
+    font-size: 6.08px;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 373.9px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+.container {
+  max-width: 183rem;
+  width: 100%;
+  height: 100%;
+  padding: 0 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.--page {
+  max-width: 152.6rem;
+  padding-left: 10%;
+}
+
+.container.--wide {
+  max-width: 152.6rem;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/ArialMT.eot");
+  src: url("../fonts/ArialMT.eot?#iefix") format("embedded-opentype"), url("../fonts/ArialMT.woff") format("woff"), url("../fonts/ArialMT.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Arial;
+  src: url("../fonts/Arial-BoldMt.eot");
+  src: url("../fonts/Arial-BoldMt.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial-BoldMt.woff") format("woff"), url("../fonts/Arial-BoldMt.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333333;
+}
+
+.overlay::before {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.36);
+}
+
+.hidden-mobile {
+  display: none !important;
+}
+
+@media screen and (max-width: 767.9px) {
+  .hidden-mobile {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+  .hidden-desktop {
+    display: none !important;
+  }
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.tabs__content {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
