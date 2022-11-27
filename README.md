@@ -1,3 +1,3 @@
 Добрый день! Тестовое задание на позицию **HTML-верстальщик**. Выполнил Разинкин Сергей  
 
-Посмотреть можно здесь:  [https://benzopil.github.io/ntechlab-test/dist/](https://benzopil.github.io/ntechlab-test/dist/)
+Посмотреть можно здесь:  [http://ntechlab-test.razinkins.ru/](http://ntechlab-test.razinkins.ru/)
